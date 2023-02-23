@@ -30,3 +30,5 @@ if __name__ == '__main__':
     # 6. Instanciation et lancement du serveur:
     server = make_server('127.0.0.1', 8000, wsgi_application)
     server.serve_forever()
+    # print lancer
+    print("Lancement du serveur sur le port 8000")
